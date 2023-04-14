@@ -1,0 +1,16 @@
+JavaScript:
+Light weight – simple syntax and semantics, quick and easy to learn.
+Interpreted – line by line execution.
+Scripting language for webpages and many non-browser environments.
+Single threaded – not multithreaded because only one line can execute at a time.
+Dynamic language – reads variable value in runtime.
+Multi-paradigm – Object-oriented, imperative, and declarative style.
+prototype - Class are implemented my methods.
+
+Compilers used:
+V8 – for chrome and node JS.
+SpiderMonkey – for Firefox.
+
+
+ECMA Script
+•	After JavaScript is standardized my Europeans, it’s got a new name as ECMA Script(European Computer Manufacturers Association).

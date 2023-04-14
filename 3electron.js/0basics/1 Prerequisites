@@ -1,0 +1,15 @@
+This page explains the prerequisites needed for electron to run. 
+
+Prerequisites are:
+
+1) code editor
+
+2) command line
+
+3) Git and GitHub
+
+4) node.js and npm
+
+Important note:
+
+Electron does not use your system's Node.js installation to run its code.Instead, it comes bundled with its Node.js runtime. This means that your end users do not need to install Node.js themselves as a prerequisite to running your app.

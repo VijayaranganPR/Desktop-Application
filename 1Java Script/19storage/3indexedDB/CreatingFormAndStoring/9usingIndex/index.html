@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Making list age 26 and above</h1>
+    <form name="personForm">
+        <p>
+            <label>name</label>
+            <input type="text"  id="name" required>
+        </p>
+        <p>
+            <label>country</label>
+            <input type="text"  id="country" required>
+        </p>
+        <p>
+            <label>age</label>
+            <input type="text"  id="age" required>
+        </p>
+        <p>
+            <label>isOwned</label>
+            <input type="checkbox" id="isOwned" >
+        </p>
+
+
+        <!-- this all will act as submit -->
+        <button id="btnAdd">Add Person</button>
+        <button id="btnUpdate">Update Person</button>
+        <button id="btnDelete">Delete Person</button>
+        <button id="btnClear">Clear Form</button>
+
+    </form>
+
+    <!-- building list from the data base -->
+    <ol id="ol"></ol>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+1) create one working directory
+2) in terminal use 'npm init' to initialize the package.json file.
+this is return:
+
+
+
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (hello-world) hello-world
+version: (1.0.0) 1.0.0                                                                                                                                                        
+description: for understanding electron
+entry point: (index.js) main.js                                                                                                                                               
+test command: electron .                                                                                                                                                      
+git repository:                                                                                                                                                               
+keywords:                                                                                                                                                                     
+author: Vijayarangan                                                                                                                                                          
+license: (ISC)                                                                                                                                                                
+About to write to C:\Users\prvij\Desktop\Java Script\22electron.js\Hello World\package.json:
+
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "for understanding electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Vijayarangan",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+3) now the package.json file will be created, now install electron as DEVDEPENDENCY using 
+'npm install electron --save-dev'
+
+this will create a node_modules so that each one no need to be defined as devDependencies each time.
+
+4) now create the main.js file in root dir and run the terminal as 'npm run test' to execute

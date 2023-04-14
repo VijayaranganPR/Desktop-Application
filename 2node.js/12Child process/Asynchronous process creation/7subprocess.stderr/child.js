@@ -1,0 +1,1 @@
+throw new Error('Error message from child process')

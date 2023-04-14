@@ -1,0 +1,8 @@
+In Electron, the renderer process is a process that runs web pages in Electron apps. Each web page in an Electron app runs in its own renderer process. The renderer process is responsible for rendering the user interface of the app and handling user interactions with that interface.
+
+The renderer process runs JavaScript, HTML, and CSS to display the app's user interface and respond to user events like clicks and key presses. The renderer process is separate from the main process, which is responsible for creating the app's windows, setting up communication between the renderer processes and the main process, and handling other system-level tasks.
+
+The separation of the renderer process from the main process provides security and stability benefits. If a renderer process crashes or hangs, it does not affect the rest of the app or other renderer processes, and the user can simply close the affected window to restart the renderer process. Additionally, the renderer process runs with lower permissions than the main process, which can help to mitigate security vulnerabilities.
+
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+<!-- abort -->
+            <td id="one">
+                one
+            </td>
+            <td id="two">
+                abort in 3
+            </td>
+        </tr>
+
+<!-- capture -->
+        <tr id="parent1 capture">
+            <td id="capture">
+                capture
+            </td>
+        </tr>
+        <tr id="parent2 capture">
+            <td id = 'not capture'>
+                not capture
+            </td>
+        </tr>
+
+<!-- once -->
+        <tr id = "once">
+            <td>I will execute only once</td>
+        </tr>
+<!-- this -->
+        <tr>
+            <td id="callback">callBackThis === e.currentTarget</td>
+            <td id="anonomous">anonomousThis === e.currentTarget</td>
+            <td id="arrow">arrowThis !== e.currentTarget</td>
+        </tr>
+        <tr>
+            <td onclick="console.log(this)">inline console.log() returns table data</td>
+            <td onclick="thisKeyword2()">inlineCallbackThis === global</td>
+        </tr>
+        <tr>
+            <td id = 'gettingData'>using bind to getting data in to EventListener</td>
+        </tr>
+            
+    </table>
+
+    <script src="index bending.js"></script>
+</body>
+</html>

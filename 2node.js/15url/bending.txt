@@ -1,0 +1,9 @@
+url.domainToASCII(domain)
+url.domainToUnicode(domain)
+url.fileURLToPath(url)
+url.format(URL[, options])
+url.pathToFileURL(path)
+url.urlToHttpOptions(url)
+urlObject.path
+urlObject.query
+urlObject.slashes

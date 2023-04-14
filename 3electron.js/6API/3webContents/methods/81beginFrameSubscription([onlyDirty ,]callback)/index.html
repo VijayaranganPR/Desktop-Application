@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Frame Recording</title>
+  </head>
+  <body>
+    <button id="start" onclick="startRecording()">Start Recording</button>
+    <button id="stop" onclick="stopRecording()">Stop Recording</button>
+
+    <script>
+      const { ipcRenderer } = require('electron');
+
+      function startRecording() {
+        ipcRenderer.send('start-recording', 'video.mp4');
+      }
+
+      function stopRecording() {
+        ipcRenderer.send('stop-recording');
+      }
+    </script>
+  </body>
+</html>
